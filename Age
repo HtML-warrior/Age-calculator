@@ -1,0 +1,19 @@
+def main():
+    age = int(input("Enter your age: "))
+    
+    # Determine the age
+    if age < 20 or age >= 50:
+        message = "Your age is out of range"
+    elif 20 <= age < 30:
+        message = "You are in your 20s"
+    elif 30 <= age < 40:
+        message = "You are in your 30s"
+    elif 40 <= age < 50:
+        message = "You are in your 40s"
+    else:
+        message = "Invalid age input"
+        
+    print(message)
+
+if __name__ == "__main__":
+    main()
